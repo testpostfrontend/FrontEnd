@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=HK+Grotesk:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.bg,
+.bg1 {
+  position: absolute;
+  height: 100%;
+  width: 120%;
+  top: 0;
+  right: -10%;
+  bottom: 0;
+  left: -10%;
+  background-color: #172a4c;
+}
+
+.bg1 {
+  height: 16.93%;
+  width: 100%;
+  top: 83.07%;
+  right: 0;
+  left: 0;
+}
+
+.copyright-child {
+  position: absolute;
+  height: 1.49%;
+  width: 100.08%;
+  top: -0.75%;
+  right: -0.04%;
+  bottom: 99.25%;
+  left: -0.04%;
+  border-top: 1px solid #fff;
+  box-sizing: border-box;
+  opacity: 0.1;
+}
+
+.tripgo-all-rights {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 26px;
+}
+
+.creditcard-logo-1-icon {
+    position: absolute;
+    height: 70.15%;
+    width: auto;
+    top: 29.85%;
+    right: 10%; /* Adjusted the right value */
+    bottom: 0;
+    left: 80.4%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .calque1Icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 138px;
+    height: 27.14px;
+    overflow: hidden;
+    position: relative;
+    
+  }
+  
+  
+.copyright {
+  position: absolute;
+  height: 13.04%;
+  width: 81%;
+  top: 83.07%;
+  right: 9.5%;
+  bottom: 3.89%;
+  left: 9.5%;
+  text-align: center;
+}
+
+.contact-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.west-orchard-street {
+  position: absolute;
+  width: 100%;
+  top: 29.67%;
+  left: 0;
+  line-height: 26px;
+  display: inline-block;
+}
+
+.examplegmailcom {
+  position: absolute;
+  top: 0;
+  left: 17.48%;
+  line-height: 26px;
+}
+
+.envelope-icon {
+  position: absolute;
+  height: 76.92%;
+  width: 11%;
+  top: 11.54%;
+  right: 89%;
+  bottom: 11.54%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.mail {
+  height: 14.29%;
+  width: 81.88%;
+  top: 85.71%;
+  right: 18.12%;
+  bottom: 0;
+  left: 0;
+}
+
+.call-icon,
+.div,
+.mail {
+  position: absolute;
+}
+
+.div {
+  top: 0;
+  left: 16.49%;
+  line-height: 26px;
+}
+
+.call-icon {
+  height: 76.92%;
+  width: 10.64%;
+  top: 11.54%;
+  right: 89.36%;
+  bottom: 11.54%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.call,
+.widget-4 {
+  position: absolute;
+  height: 14.29%;
+  width: 84.68%;
+  top: 65.93%;
+  right: 15.32%;
+  bottom: 19.78%;
+  left: 0;
+}
+
+.widget-4 {
+  height: 35.41%;
+  width: 13.88%;
+  top: 24.32%;
+  right: 9.5%;
+  bottom: 40.27%;
+  left: 76.63%;
+}
+
+.about-us,
+.travel-blog {
+  position: absolute;
+  display: inline-block;
+}
+
+.about-us {
+  width: 76.92%;
+  top: 0;
+  left: 0.02%;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.travel-blog {
+  width: 100%;
+  top: 27.52%;
+  left: 0;
+  line-height: 26px;
+}
+
+.be-our-partner,
+.working-with-us {
+  position: absolute;
+  top: 55.03%;
+  left: 0;
+  line-height: 26px;
+}
+
+.be-our-partner {
+  top: 82.55%;
+}
+
+.footer-list,
+.widget-3 {
+  position: absolute;
+  height: 73.4%;
+  width: 100%;
+  top: 26.6%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #f5f5f5;
+}
+
+.widget-3 {
+  height: 39.49%;
+  width: 9.75%;
+  top: 24.32%;
+  right: 32.63%;
+  bottom: 36.19%;
+  left: 57.63%;
+  color: #fff;
+}
+
+.support {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.contact-channels,
+.privacy-policy {
+  position: absolute;
+  top: 37.96%;
+  left: 0;
+  line-height: 26px;
+}
+
+.contact-channels {
+  top: 75.93%;
+}
+
+.footer-list1,
+.widget-2 {
+  position: absolute;
+  height: 66.67%;
+  width: 100%;
+  top: 33.33%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #f5f5f5;
+}
+
+.widget-2 {
+  height: 31.52%;
+  width: 8.25%;
+  top: 24.32%;
+  right: 54.75%;
+  bottom: 44.16%;
+  left: 37%;
+  color: #fff;
+}
+
+.there-are-many {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 26px;
+  display: inline-block;
+}
+
+.logo-white-icon {
+  position: absolute;
+  height: 25.64%;
+  width: 39.87%;
+  top: 76.92%;
+  right: 10.46%;
+  bottom: -2.56%;
+  left: 49.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+
+.twitte-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.social-icon {
+  position: absolute;
+  height: 10.26%;
+  width: 50.33%;
+  top: 89.74%;
+  right: 49.67%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.orange-icon {
+  color: rgba(255, 94, 85, 1);
+}
+
+.widget-1 {
+  position: absolute;
+  height: 30.35%;
+  width: 19.13%;
+  top: 35.99%;
+  right: 71.38%;
+  bottom: 33.66%;
+  left: 9.5%;
+}
+
+.footer-2 {
+  position: relative;
+  width: 100%;
+  height: 514px;
+  text-align: left;
+  font-size: 16px;
+  color: #f5f5f5;
+  font-family: "HK Grotesk";
+}
