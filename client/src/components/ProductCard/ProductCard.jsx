@@ -20,11 +20,17 @@ const ProductCard = () => {
 
   return (
     <>
+    {/* Text outside the product cards */}
+    <div className="best-seller-text">Nos Best Sellers</div>
       <div className="product-grid">
         {dummyData.map((product, index) => (
           <div key={index} className="product-card">
             {/* Product Image */}
-            <img src={product.image} alt={`Product ${index + 1}`} className="product-image" />
+            <div className="image-container">
+              <img src={product.image} alt={`Product ${index + 1}`} className="product-image" />
+              {/* Heart Icon */}
+              <div className="heart-icon">&hearts;</div>
+            </div>
 
             {/* Product Name */}
             <div className="product-name">
