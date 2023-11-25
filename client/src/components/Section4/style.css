@@ -1,0 +1,89 @@
+/* style.css */
+
+.section-3-1 {
+    background-color: rgba(255, 94, 85, 1);
+}
+
+.group {
+    
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.an-heading {
+    margin-top: 10%;
+}
+
+.an-subtitle {
+    text-align: center;
+    font-size: 42px;
+    font-family: "HK Grotesk";
+    font-weight: 700;
+    color: white;
+    width: 781px;
+    height: 54px;
+    margin: 0 auto;
+}
+
+.an-title {
+    font-size: 24px;
+    font-family: "La Belle Aurore";
+    font-weight: 400;
+    color: rgba(23, 42, 76, 1);
+    width: 416px;
+    height: 26px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.an-sub {
+    font-size: 16px;
+    font-family: "HK Grotesk";
+    font-weight: 400;
+    color: rgba(68, 68, 68, 1);
+    width: 690px;
+    height: 52px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .an-subtitle,
+    .an-title,
+    .an-sub {
+        width: 90%;
+    }
+
+    .an-subtitle {
+        font-size: 36px;
+    }
+
+    .an-title {
+        font-size: 20px;
+        margin-bottom: 2%;
+    }
+
+    .an-sub {
+        font-size: 14px;
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    .an-subtitle {
+        font-size: 28px;
+    }
+
+    .an-title {
+        font-size: 18px;
+        margin-bottom: 2%;
+    }
+
+    .an-sub {
+        font-size: 12px;
+    }
+}
