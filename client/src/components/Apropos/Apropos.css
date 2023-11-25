@@ -1,11 +1,11 @@
-.bgg,
+.bg,
 .mask-group-icon {
   position: absolute;
   top: 103px;
   left: 0;
   width: 1920px;
 }
-.bgg {
+.bg {
   background-color: #fff;
   height: 920px;
 }
@@ -98,8 +98,8 @@
   justify-content: flex-start;
   gap: 3px;
 }
-.divv,
-.divv1,
+.div,
+.div1,
 .reliable-icon {
   position: absolute;
   top: 0;
@@ -107,14 +107,14 @@
   width: 48px;
   height: 51.17px;
 }
-.divv,
-.divv1 {
+.div,
+.div1 {
   top: 597px;
   left: 312px;
   width: 264px;
   height: 75px;
 }
-.divv1 {
+.div1 {
   left: 625px;
 }
 .ft,

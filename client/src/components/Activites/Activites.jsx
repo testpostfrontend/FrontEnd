@@ -1,31 +1,25 @@
 import { useState } from 'react';
 import { FaMapMarkerAlt, FaStar, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import './style.css';
-import img1 from '../../assets/1.png';
-import img2 from '../../assets/2.png';
-import img3 from '../../assets/3.png';
-import img4 from '../../assets/4.png';
+import img1 from '../../assets/act1.png';
+import img2 from '../../assets/act2.png';
+import img3 from '../../assets/act3.png';
+import img4 from '../../assets/act4.png';
 
-const ProductCard = () => {
+const Activites = () => {
   const dummyData = [
-    { name: 'Lappartement de la falaise  ', location: 'Down Town , Madina Tunis', price: '$19.99', image: img1 },
-    { name: 'Appartement S+2rez de chaussée', location: 'Site archéologique de Carthage', price: '$29.99', image: img2 },
-    { name: 'Charmant studio vue mer sublime', location: 'Sidi Bou Saïd', price: '$39.99', image: img3 },
-    { name: 'Appartement magnifique, chic et stratégique', location: 'Bryce Canyon National Park, USA', price: '$49.99', image: img4 },
-    { name: 'Charmant studio vue mer sublime', location: 'Sidi Bou Saïd', price: '$59.99', image: img1 },
-    { name: 'Appartement S+2rez de chaussée', location: 'Bryce Canyon National Park, USA', price: '$69.99', image: img2 },
-    { name: 'Appartement magnifique, chic et stratégique', location: 'Site archéologique de Carthage', price: '$79.99', image: img3 },
-    { name: 'Lappartement de la falaise  ', location: 'Down Town , Madina Tunis', price: '$89.99', image: img4 },
-    { name: 'Charmant studio vue mer sublime', location: 'Sidi Bou Saïd', price: '$59.99', image: img3 },
-    { name: 'Appartement S+2rez de chaussée', location: 'Bryce Canyon National Park, USA', price: '$69.99', image: img4 },
-    { name: 'Appartement magnifique, chic et stratégique', location: 'Site archéologique de Carthage', price: '$79.99', image: img2 },
-    { name: 'Lappartement de la falaise  ', location: 'Down Town , Madina Tunis', price: '$89.99', image: img1 },
-    { name: 'Appartement S+2rez de chaussée', location: 'Bryce Canyon National Park, USA', price: '$69.99', image: img4 },
-
-    // Add more dummy data as needed
+    { name: 'Visite musée assistéedu Bardo ', location: 'Down Town , Madina Tunis', price: '$19.99', image: img1 },
+    { name: 'Visite des ruines de Carthage', location: 'Site archéologique de Carthage', price: '$29.99', image: img2 },
+    { name: 'Du snorkeling à Tabarka', location: 'Sidi Bou Saïd', price: '$39.99', image: img3 },
+    { name: 'Parade 4x4au desert - Sud Tunisie ', location: 'Bryce Canyon National Park, USA', price: '$49.99', image: img4 },
+    { name: 'Du snorkeling à Tabarka', location: 'Sidi Bou Saïd', price: '$59.99', image: img3 },
+    { name: 'Parade 4x4au desert - Sud Tunisie ', location: 'Bryce Canyon National Park, USA', price: '$69.99', image: img4 },
+    { name: 'Visite musée assistéedu Bardo', location: 'Site archéologique de Carthage', price: '$79.99', image: img1 },
+    { name: 'Visite des ruines de Carthage ', location: 'Down Town , Madina Tunis', price: '$89.99', image: img2 },
+        // Add more dummy data as needed
   ];
 
-  const itemsPerPage = 8;
+  const itemsPerPage = 4;
   const [currentPage, setCurrentPage] = useState(1);
   const [animate, setAnimate] = useState(false);
 
@@ -48,7 +42,7 @@ const ProductCard = () => {
   return (
     <>
       {/* Text outside the product cards */}
-      <div className="best-seller-text">Nos Best Sellers</div>
+      <div className="best-seller-text">Activités</div>
 
       {/* Navigation buttons */}
       <div className={`navigation-buttons ${animate ? 'animate' : ''}`}>
@@ -106,4 +100,4 @@ const ProductCard = () => {
   );
 };
 
-export default ProductCard;
+export default Activites;

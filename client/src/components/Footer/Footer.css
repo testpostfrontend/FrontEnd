@@ -1,9 +1,8 @@
-/* @import url("https://fonts.googleapis.com/css2?family=HK+Grotesk:wght@400;600&display=swap");
-
-body {
+@import url("https://fonts.googleapis.com/css2?family=HK+Grotesk:wght@400;600&display=swap");
+.footer-2 {
   margin: 0;
   line-height: normal;
-} */
+}
 
 .bg,
 .bg1 {
@@ -16,7 +15,6 @@ body {
   left: -10%;
   background-color: #172a4c;
 }
-
 .bg1 {
   height: 16.93%;
   width: 100%;
@@ -24,7 +22,6 @@ body {
   right: 0;
   left: 0;
 }
-
 .copyright-child {
   position: absolute;
   height: 1.49%;
@@ -37,39 +34,35 @@ body {
   box-sizing: border-box;
   opacity: 0.1;
 }
-
 .tripgo-all-rights {
   position: absolute;
   top: 0;
   left: 0;
   line-height: 26px;
 }
-
+.copyright-terms {
+  position: absolute;
+  height: 38.81%;
+  width: 19.14%;
+  top: 46.27%;
+  right: 80.63%;
+  bottom: 14.93%;
+  left: 0.23%;
+  opacity: 0.8;
+}
 .creditcard-logo-1-icon {
-    position: absolute;
-    height: 70.15%;
-    width: auto;
-    top: 29.85%;
-    right: 10%; /* Adjusted the right value */
-    bottom: 0;
-    left: 80.4%;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-  }
-  
-  .calque1Icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 138px;
-    height: 27.14px;
-    overflow: hidden;
-    position: relative;
-    
-  }
-  
-  
+  position: absolute;
+  height: 70.15%;
+  width: 19.6%;
+  top: 29.85%;
+  right: 0;
+  bottom: 0;
+  left: 80.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
 .copyright {
   position: absolute;
   height: 13.04%;
@@ -80,7 +73,6 @@ body {
   left: 9.5%;
   text-align: center;
 }
-
 .contact-info {
   position: absolute;
   top: 0;
@@ -89,7 +81,6 @@ body {
   font-weight: 600;
   color: #fff;
 }
-
 .west-orchard-street {
   position: absolute;
   width: 100%;
@@ -98,14 +89,12 @@ body {
   line-height: 26px;
   display: inline-block;
 }
-
 .examplegmailcom {
   position: absolute;
   top: 0;
   left: 17.48%;
   line-height: 26px;
 }
-
 .envelope-icon {
   position: absolute;
   height: 76.92%;
@@ -118,7 +107,6 @@ body {
   overflow: hidden;
   max-height: 100%;
 }
-
 .mail {
   height: 14.29%;
   width: 81.88%;
@@ -127,19 +115,16 @@ body {
   bottom: 0;
   left: 0;
 }
-
 .call-icon,
 .div,
 .mail {
   position: absolute;
 }
-
 .div {
   top: 0;
   left: 16.49%;
   line-height: 26px;
 }
-
 .call-icon {
   height: 76.92%;
   width: 10.64%;
@@ -151,7 +136,6 @@ body {
   overflow: hidden;
   max-height: 100%;
 }
-
 .call,
 .widget-4 {
   position: absolute;
@@ -162,7 +146,6 @@ body {
   bottom: 19.78%;
   left: 0;
 }
-
 .widget-4 {
   height: 35.41%;
   width: 13.88%;
@@ -171,13 +154,11 @@ body {
   bottom: 40.27%;
   left: 76.63%;
 }
-
 .about-us,
 .travel-blog {
   position: absolute;
   display: inline-block;
 }
-
 .about-us {
   width: 76.92%;
   top: 0;
@@ -185,14 +166,12 @@ body {
   line-height: 24px;
   font-weight: 600;
 }
-
 .travel-blog {
   width: 100%;
   top: 27.52%;
   left: 0;
   line-height: 26px;
 }
-
 .be-our-partner,
 .working-with-us {
   position: absolute;
@@ -200,11 +179,9 @@ body {
   left: 0;
   line-height: 26px;
 }
-
 .be-our-partner {
   top: 82.55%;
 }
-
 .footer-list,
 .widget-3 {
   position: absolute;
@@ -216,7 +193,6 @@ body {
   left: 0;
   color: #f5f5f5;
 }
-
 .widget-3 {
   height: 39.49%;
   width: 9.75%;
@@ -226,7 +202,6 @@ body {
   left: 57.63%;
   color: #fff;
 }
-
 .support {
   position: absolute;
   top: 0;
@@ -234,7 +209,6 @@ body {
   line-height: 24px;
   font-weight: 600;
 }
-
 .contact-channels,
 .privacy-policy {
   position: absolute;
@@ -242,11 +216,9 @@ body {
   left: 0;
   line-height: 26px;
 }
-
 .contact-channels {
   top: 75.93%;
 }
-
 .footer-list1,
 .widget-2 {
   position: absolute;
@@ -258,7 +230,6 @@ body {
   left: 0;
   color: #f5f5f5;
 }
-
 .widget-2 {
   height: 31.52%;
   width: 8.25%;
@@ -268,7 +239,6 @@ body {
   left: 37%;
   color: #fff;
 }
-
 .there-are-many {
   position: absolute;
   width: 100%;
@@ -277,7 +247,6 @@ body {
   line-height: 26px;
   display: inline-block;
 }
-
 .logo-white-icon {
   position: absolute;
   height: 25.64%;
@@ -291,7 +260,6 @@ body {
   max-height: 100%;
   display: none;
 }
-
 .twitte-icon {
   position: relative;
   width: 16px;
@@ -299,7 +267,6 @@ body {
   overflow: hidden;
   flex-shrink: 0;
 }
-
 .social-icon {
   position: absolute;
   height: 10.26%;
@@ -314,11 +281,6 @@ body {
   justify-content: flex-start;
   gap: 30px;
 }
-
-.orange-icon {
-  color: rgba(255, 94, 85, 1);
-}
-
 .widget-1 {
   position: absolute;
   height: 30.35%;
@@ -328,7 +290,6 @@ body {
   bottom: 33.66%;
   left: 9.5%;
 }
-
 .footer-2 {
   position: relative;
   width: 100%;

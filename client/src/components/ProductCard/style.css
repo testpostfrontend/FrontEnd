@@ -1,124 +1,228 @@
-.product-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .product-card {
-    padding: 15px;
-    margin: 10px;
-    width: calc(25% - 20px); /* Adjust the width to 25% to fit 4 cards per row with margins */
-    box-sizing: border-box; /* Include padding and border in the total width */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow with color and opacity */
-  }
-  .best-seller-text {
-    font-weight: bold;
-    
-    text-align: left;
-    margin: 20px;
-    color: black; /* Set the color according to your design */
-  }
-  
-  
-  .product-image {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-  }
-  
-  .product-name {
-    margin-top: 10px;
-    text-align: left; /* Align the text to the left */
-  }
-  
-  .name {
-    font-weight: bold;
-    color: black;
-  }
-  
-  .location {
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
-  }
-  
-  .location-icon {
-    margin-right: 5px;
-    color: gray;
-  }
-  
-  .location-text {
-    color: gray;
-    font-size: 12px;
-  }
-  
-  .rating {
-    margin-top: 10px;
-    display: flex; /* Align stars to the left */
-  }
-  
-  .star {
-    color: orange;
-  }
-  
-  .price-and-button {
-    display: flex;
-    justify-content: space-between; /* Adjust to space between */
-    margin-top: 10px;
-    align-items: center; /* Align items vertically */
-  }
-  
-  .new-price {
-    font-weight: bold;
-    color: black;
-    margin-right: 10px; /* Add margin-right for space */
-  }
-  
-  .price {
-    font-weight: bold;
-    color: black;
-  }
-  
-  .old-price {
-    color: gray;
-    text-decoration: line-through;
-  }
-  
-  .buy-button {
-    background-color: rgba(255, 94, 85, 1);
-    color: white;
-    padding: 8px 15px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+/* Product Card Styles */
 
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  position: relative;
+  padding: 15px;
+  margin: 10px;
+  width: calc(25% - 20px);
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .product-card {
+    width: calc(33.33% - 20px);
   }
-  
-  .centered-button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    width: calc(50% - 20px);
   }
-  
-  .discover-button {
-    background-color: white;
-    color: rgba(255, 94, 85, 1);
-    border: 2px solid rgba(255, 94, 85, 1);
-    padding: 8px 15px;
-    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    width: calc(100% - 20px);
   }
-  .image-container {
-    position: relative;
+}
+
+.best-seller-text {
+  font-weight: bold;
+  text-align: left;
+  margin: 20px;
+  color: black;
+}
+
+.image-container {
+  position: relative;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: gray;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.product-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  animation: pulse 1.5s infinite;
+}
+
+/* Animation Keyframes */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
   }
-  
-  .heart-icon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
-    color: gray;
-    background-color: white;
-    padding: 5px;
-    border-radius: 50%;
+  50% {
+    transform: scale(1.05);
   }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.product-name {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.name {
+  font-weight: bold;
+  color: black;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.location-icon {
+  margin-right: 5px;
+  color: gray;
+}
+
+.location-text {
+  color: gray;
+  font-size: 12px;
+}
+
+.rating {
+  margin-top: 10px;
+  display: flex;
+}
+
+.star {
+  color: orange;
+  animation: shine 1.5s infinite;
+}
+
+/* Animation Keyframes */
+@keyframes shine {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.price-and-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.new-price {
+  font-weight: bold;
+  color: black;
+  margin-right: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: black;
+}
+
+.old-price {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.buy-button {
+  background-color: rgba(255, 94, 85, 1);
+  color: white;
+  padding: 8px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: rgba(255, 94, 85, 0.8);
+  transform: scale(1.1);
+}
+
+.centered-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-decouvrir {
+  background-color: white;
+  color: rgba(255, 94, 85, 1);
+  border: 2px solid rgba(255, 94, 85, 1);
+  padding: 8px 15px;
+  cursor: pointer;
+  animation: buttonPulse 1.5s infinite; /* Add this line for the animation */
+}
+@keyframes buttonPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.discover-button {
+  background-color: white;
+  color: rgba(153, 153, 153, 1);
+  border: 2px solid rgba(153, 153, 153, 1);
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Navigation Buttons */
+
+.navigation-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.navigation-buttons .discover-button {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+/* Fade animation for product cards */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
