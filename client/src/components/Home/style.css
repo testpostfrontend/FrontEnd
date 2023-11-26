@@ -1,0 +1,47 @@
+.home-container {
+    position: relative;
+  }
+  
+  .home-image {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  
+  .hometitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 33px;
+    font-family: "HK Grotesk";
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    width: 80%; 
+    max-width: 736px; 
+    height: 50%; 
+    text-align: center; 
+  
+    /* Media Query for smaller screens */
+    @media (max-width: 768px) {
+      font-size: 20px;
+      width: 90%;
+    }
+  
+    /* Media Query for even smaller screens */
+    @media (max-width: 480px) {
+      font-size: 10px;
+      width: 95%;
+    }
+    @media (max-width: 834px) {
+        font-size: 21px;
+        width: 95%;
+      }
+      @media (max-width: 428px) {
+        font-size: 13px;
+        width: 95%;
+      }
+    
+  }
+  
