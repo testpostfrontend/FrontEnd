@@ -8,8 +8,8 @@
   padding: 10px 20px;
 }
 
-.logo {
-  height: 40px;
+.logoc {
+  height: 20px;
   width: auto;
   vertical-align: middle;
 }
@@ -46,12 +46,12 @@ li {
   color: #000;
 }
 
-/* Center the list items in the middle of the screen */
+
 .navbar-middle ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%; /* Ensure the full height of the container is covered */
+  height: 100%; 
 }
 
 /* Responsive Styles */

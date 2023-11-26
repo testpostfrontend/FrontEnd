@@ -1,79 +1,110 @@
-import { library } from '@fortawesome/fontawesome-svg-core';
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-} from '@fortawesome/free-brands-svg-icons';
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 import './Footer.css';
 import creditcardLogo from '../../assets/creditcard-logo.png';
 import log2 from '../../assets/log2.png';
-library.add(faFacebook, faTwitter, faInstagram);
 const Footer = () => {
   return (
-    <div className="footer-2">
-      <div className="bg" />
-      <div className="bg1" />
-      <div className="copyright">
-        <div className="copyright-child" />
-        <div className="copyright-terms">
-          <div className="tripgo-all-rights">
-            © 2022 Tripgo All Rights Reserved.
+    <footer className="footer">
+      <div className="container bottom_border">
+        <div className="row">
+          <div className=" col-sm-4 col-md col-sm-4  col-12 col">
+            <img
+              className="headin5_amrc col_white_amrc pt2"
+              src={log2}
+              alt="blog"
+            />
+
+            {/* <!--headin5_amrc--> */}
+            <p className="mb10">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industrys standard dummy text
+              ever since the 1500s
+            </p>
+
+            <div className="social-icons">
+              <p>
+                <i className="fab fa-instagram"></i>
+              </p>
+              <p>
+                <i className="fab fa-twitter"></i>
+              </p>
+              <p>
+                <i className="fab fa-facebook"></i>
+              </p>
+            </div>
+          </div>
+
+          <div className=" col-sm-4 col-md  col-6 col">
+            <h5 className="headin5_amrc col_white_amrc pt2">Support</h5>
+            {/* <!--headin5_amrc--> */}
+            <ul className="footer_ul_amrc">
+              <li>
+                <a href="">Customer Support</a>
+              </li>
+              <li>
+                <a href="">Privacy & Policy</a>
+              </li>
+              <li>
+                <a href="">Contact Channels</a>
+              </li>
+            </ul>
+            {/* <!--footer_ul_amrc ends here--> */}
+          </div>
+
+          <div className=" col-sm-4 col-md  col-6 col">
+            <h5 className="headin5_amrc col_white_amrc pt2">About Us</h5>
+            {/* <!--headin5_amrc--> */}
+            <ul className="footer_ul_amrc">
+              
+              <li>
+                <a href="">Travel Blog & Tips</a>
+              </li>
+              <li>
+                <a href="">Working With Us</a>
+              </li>
+              <li>
+                <a href="">Be Our Partner</a>
+              </li>
+            </ul>
+            {/* <!--footer_ul_amrc ends here--> */}
+          </div>
+
+          <div className=" col-sm-4 col-md  col-12 col">
+            <h5 className="headin5_amrc col_white_amrc pt2">Contact Info</h5>
+            {/* <!--headin5_amrc ends here--> */}
+            <p className="mb10">
+              455 West Orchard Street Kings Mountain, NC 280867
+            </p>
+
+            <ul className="footer_ul2_amrc">
+              <li>
+                <a href="#">
+                  <i className="fa fa-phone"style={{ color: 'rgba(255, 94, 85, 1)' }}></i> +088 (006) 992-99-10{' '}
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fa fa fa-envelope"style={{ color: 'rgba(255, 94, 85, 1)' }}></i> example@gmail.com{' '}
+                </a>
+              </li>
+            </ul>
+            {/* <!--footer_ul2_amrc ends here--> */}
           </div>
         </div>
-        <img className="creditcard-logo-1-icon" alt="" src={creditcardLogo} />
       </div>
-      <div className="widget-4">
-        <div className="contact-info">Contact Info</div>
-        <div className="west-orchard-street">
-          455 West Orchard Street Kings Mountain, NC 280867
-        </div>
-        <div className="mail">
-          <div className="examplegmailcom">example@gmail.com</div>
-          <FontAwesomeIcon
-            className="envelope-icon orange-icon"
-            icon={faEnvelope}
-          />
-        </div>
-        <div className="call">
-          <div className="div">+088 (006) 992-99-10</div>
-          <FontAwesomeIcon className="call-icon orange-icon" icon={faPhone} />
-        </div>
+
+      <div className="container">
+        {/* <!--foote_bottom_ul_amrc ends here--> */}
+        <p className="text-center">
+          © 2022 Tripgo All Rights Reserved .{/* <a href="#">SuperHost</a> */}
+        </p>
+
+        <ul className="credit_footer_ul">
+          <img className="" src={creditcardLogo} alt="credit card" />
+        </ul>
       </div>
-      <div className="widget-3">
-        <div className="about-us">About Us</div>
-        <div className="footer-list">
-          <div className="tripgo-all-rights">Our Story</div>
-          <div className="travel-blog">{`Travel Blog & Tips`}</div>
-          <div className="working-with-us">Working With Us</div>
-          <div className="be-our-partner">Be Our Partner</div>
-        </div>
-      </div>
-      <div className="widget-2">
-        <div className="support">Support</div>
-        <div className="footer-list1">
-          <div className="tripgo-all-rights">Customer Support</div>
-          <div className="privacy-policy">{`Privacy & Policy`}</div>
-          <div className="contact-channels">Contact Channels</div>
-        </div>
-      </div>
-      <div className="widget-1">
-        <div className="there-are-many">
-          There are many variations of passages of Lorem the Ipsum available but
-          it is the majority of suffered that a alteration in that some dummy
-          text.
-        </div>
-        <div className="calque1Icon">
-          <img src={log2} alt="" />
-        </div>
-        <div className="social-icon">
-          <FontAwesomeIcon className="twitte-icon" icon={faTwitter} />
-          <FontAwesomeIcon className="twitte-icon" icon={faFacebook} />
-          <FontAwesomeIcon className="twitte-icon" icon={faInstagram} />
-        </div>
-      </div>
-    </div>
+    </footer>
   );
 };
 

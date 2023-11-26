@@ -22,7 +22,6 @@ const ProductCard = () => {
     { name: 'Lappartement de la falaise  ', location: 'Down Town , Madina Tunis', price: '$89.99', image: img1 },
     { name: 'Appartement S+2rez de chaussée', location: 'Bryce Canyon National Park, USA', price: '$69.99', image: img4 },
 
-    // Add more dummy data as needed
   ];
 
   const itemsPerPage = 8;

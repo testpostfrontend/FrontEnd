@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isMenuOpen ? 'menu-open' : ''}`}>
       <div className="navbar-left">
-        <img src={logo} alt="Logo" className="logo" />
+        <img src={logo} alt="Logo" className="logoc" />
       </div>
       <div className={`navbar-middle ${isMenuOpen ? 'menu-open' : ''}`}>
         <ul>

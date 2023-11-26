@@ -1,4 +1,3 @@
-/* Product Card Styles */
 
 .product-grid {
   display: flex;
@@ -178,7 +177,7 @@
   border: 2px solid rgba(255, 94, 85, 1);
   padding: 8px 15px;
   cursor: pointer;
-  animation: buttonPulse 1.5s infinite; /* Add this line for the animation */
+  animation: buttonPulse 1.5s infinite; 
 }
 @keyframes buttonPulse {
   0% {
