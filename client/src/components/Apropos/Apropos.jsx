@@ -1,20 +1,25 @@
-import "./Apropos.css";
+import './Apropos.css';
 import img1 from '../../assets/img1.png';
 import img2 from '../../assets/img2.png';
+import img3 from '../../assets/H.png';
 import map from '../../assets/map.png';
 import star from '../../assets/star.png';
 import verifier from '../../assets/verifier.png';
 
-
-
-
 const Apropos = () => {
   return (
-   <div className="section-1">
+    <div className="section-1">
       <div className="bg" />
       <div className="ft">
-        <img className="mask-group-icon" alt="" src={map} />
-        <img className="img-icon" alt="" src={img2} />
+        <div className="divimg">
+          <img className="mask-group-icon" alt="" src={map} />
+          <img className="img-icon" alt="" src={img1} />
+          <img className="img-icon1" alt="" src={img3} />
+          <div className="img">
+            <img className="img-child" alt="" src={img2} />
+          </div>
+        </div>
+
         <div className="text">
           <div className="text-wrapper">
             <div className="text1">
@@ -54,10 +59,6 @@ const Apropos = () => {
           </div>
           <img className="reliable-icon" alt="" src={verifier} />
         </div>
-      </div>
-      <img className="line-10-stroke" alt="" src="/line-10-stroke.svg" />
-      <div className="img">
-        <img className="img-child" alt="" src={img1} />
       </div>
     </div>
   );

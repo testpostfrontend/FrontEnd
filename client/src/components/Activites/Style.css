@@ -65,18 +65,7 @@
     animation: pulse 1.5s infinite;
   }
   
-  /* Animation Keyframes */
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.05);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
+  
   
   .product-name {
     margin-top: 10px;
@@ -115,17 +104,7 @@
   }
   
   /* Animation Keyframes */
-  @keyframes shine {
-    0% {
-      opacity: 0.5;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0.5;
-    }
-  }
+ 
   
   .price-and-button {
     display: flex;
@@ -177,19 +156,9 @@
     border: 2px solid rgba(255, 94, 85, 1);
     padding: 8px 15px;
     cursor: pointer;
-    animation: buttonPulse 1.5s infinite; 
+    /* animation: buttonPulse 1.5s infinite;  */
   }
-  @keyframes buttonPulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.05);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
+  
   .discover-button {
     background-color: white;
     color: rgba(153, 153, 153, 1);
@@ -212,17 +181,5 @@
     margin-left: 10px;
   }
   
-  /* Fade animation for product cards */
-  .fade-in {
-    animation: fadeIn 0.5s ease-in-out;
-  }
   
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
   

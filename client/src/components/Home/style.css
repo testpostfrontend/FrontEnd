@@ -1,47 +1,147 @@
 .home-container {
-    position: relative;
-  }
-  
-  .home-image {
-    width: 100%;
-    height: auto;
+  position: relative;
+}
+
+.home-image {
+  width: 100%;
+  height: auto;
+}
+
+.search-for-container {
+  height: 17%;
+  width: 86%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  border-radius: 17px;
+  padding: 13px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.search-form {
+  display: flex;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  margin-right: 10px;
+}
+
+.form-group input {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.date-picker-container {
+  position: relative;
+}
+
+.date-picker {
+  width: 200px;
+  padding: 8px;
+}
+
+.date-picker-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.search-button {
+  height: 79%;
+  width: 17%;
+  background-color: rgba(255, 94, 85, 1);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.search-button i {
+  margin-right: 5px;
+}
+
+.search-form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.react-select__menu {
+  z-index: 2;
+}
+
+.react-datepicker {
+  font-family: "HK Grotesk";
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.hometitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 33px;
+  font-family: "HK Grotesk";
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  width: 80%;
+  max-width: 736px;
+  height: 50%;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+    width: 90%;
   }
 
-  
-  
-  .hometitle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 33px;
-    font-family: "HK Grotesk";
-    font-weight: 700;
-    color: rgba(255, 255, 255, 1);
-    width: 80%; 
-    max-width: 736px; 
-    height: 50%; 
-    text-align: center; 
-  
-    /* Media Query for smaller screens */
-    @media (max-width: 768px) {
-      font-size: 20px;
-      width: 90%;
-    }
-  
-    /* Media Query for even smaller screens */
-    @media (max-width: 480px) {
-      font-size: 10px;
-      width: 95%;
-    }
-    @media (max-width: 834px) {
-        font-size: 21px;
-        width: 95%;
-      }
-      @media (max-width: 428px) {
-        font-size: 13px;
-        width: 95%;
-      }
-    
+  @media (max-width: 480px) {
+    font-size: 10px;
+    width: 95%;
   }
-  
+
+  @media (max-width: 834px) {
+    font-size: 21px;
+    width: 95%;
+  }
+
+  @media (max-width: 428px) {
+    font-size: 13px;
+    width: 95%;
+  }
+}
+
+/* Example cities for the location input */
+.city-suggestion {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.city-suggestion:hover {
+  background-color: #eee;
+}

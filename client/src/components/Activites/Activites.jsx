@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { FaMapMarkerAlt, FaStar, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import {  FaStar, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import './style.css';
 import img1 from '../../assets/act1.png';
 import img2 from '../../assets/act2.png';
 import img3 from '../../assets/act3.png';
 import img4 from '../../assets/act4.png';
-
+import imgheart from '../../assets/heart.png';
+import lc from '../../assets/location.png';
 const Activites = () => {
   const dummyData = [
     { name: 'Visite musée assistéedu Bardo ', location: 'Down Town , Madina Tunis', price: '$19.99', image: img1 },
@@ -61,14 +62,14 @@ const Activites = () => {
             <div className="image-container">
               <img src={product.image} alt={`Product ${index + 1}`} className="product-image" />
               {/* Heart Icon */}
-              <div className="heart-icon">&hearts;</div>
+              <div className="heart-icon"><img src={imgheart}/></div>
             </div>
 
             {/* Product Name */}
             <div className="product-name">
               <span className="name">{product.name}</span>
               <div className="location">
-                <FaMapMarkerAlt className="location-icon" />
+              <img src={lc} className="location-icon" />
                 <span className="location-text">{product.location}</span>
               </div>
             </div>

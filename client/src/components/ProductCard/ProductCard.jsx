@@ -1,10 +1,17 @@
 import { useState } from 'react';
-import { FaMapMarkerAlt, FaStar, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import {  FaStar, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faHeart } from '@fortawesome/free-solid-svg-icons';
+
 import './style.css';
 import img1 from '../../assets/1.png';
 import img2 from '../../assets/2.png';
 import img3 from '../../assets/3.png';
 import img4 from '../../assets/4.png';
+import imgheart from '../../assets/heart.png';
+import lc from '../../assets/location.png';
+
+
 
 const ProductCard = () => {
   const dummyData = [
@@ -66,14 +73,16 @@ const ProductCard = () => {
             <div className="image-container">
               <img src={product.image} alt={`Product ${index + 1}`} className="product-image" />
               {/* Heart Icon */}
-              <div className="heart-icon">&hearts;</div>
+              <div className="heart-icon"><img src={imgheart}/></div>
+              
             </div>
 
             {/* Product Name */}
             <div className="product-name">
               <span className="name">{product.name}</span>
               <div className="location">
-                <FaMapMarkerAlt className="location-icon" />
+                <img src={lc} className="location-icon" />
+                
                 <span className="location-text">{product.location}</span>
               </div>
             </div>
