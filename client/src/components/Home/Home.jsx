@@ -1,44 +1,47 @@
-import  { useState } from "react";
-import Select from "react-select";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import "./style.css";
-import img1 from "../../assets/home.png";
-import img2 from '../../assets/location.png';
-import img4 from '../../assets/ville.png';
-import img3 from '../../assets/voyager.png';
-import img5 from '../../assets/calendar.png';
+// import  { useState } from "react";
+// import Select from "react-select";
+// import DatePicker from "react-datepicker";
+import 'react-datepicker/dist/react-datepicker.css';
+import './style.css';
+import img1 from '../../assets/home.png';
+import img6 from '../../assets/hoome.png';
+import img7 from '../../assets/leh.png';
 
-
+// import img2 from '../../assets/location.png';
+// import img4 from '../../assets/ville.png';
+// import img3 from '../../assets/voyager.png';
+// import img5 from '../../assets/calendar.png';
 
 const Home = () => {
-  const [selectedLocation, setSelectedLocation] = useState(null);
-  const [startDate, setStartDate] = useState(new Date());
-  const [travelers, setTravelers] = useState(1);
+  // const [selectedLocation, setSelectedLocation] = useState(null);
+  // const [startDate, setStartDate] = useState(new Date());
+  // const [travelers, setTravelers] = useState(1);
 
-  const locationOptions = [
-    { value: "Tunis", label: "Tunis" },
-    { value: "Sousse", label: "Sousse" },
-    { value: "Nabeul", label: "Nabeul" },
-  ];
+  // const locationOptions = [
+  //   { value: "Tunis", label: "Tunis" },
+  //   { value: "Sousse", label: "Sousse" },
+  //   { value: "Nabeul", label: "Nabeul" },
+  // ];
 
-  const travelerOptions = Array.from({ length: 5 }, (_, index) => ({
-    value: index + 1,
-    label: `${index + 1} Traveler${index !== 0 ? "s" : ""}`,
-  }));
+  // const travelerOptions = Array.from({ length: 5 }, (_, index) => ({
+  //   value: index + 1,
+  //   label: `${index + 1} Traveler${index !== 0 ? "s" : ""}`,
+  // }));
 
-  const handleLocationChange = (selectedOption) => {
-    setSelectedLocation(selectedOption);
-  };
+  // const handleLocationChange = (selectedOption) => {
+  //   setSelectedLocation(selectedOption);
+  // };
 
-  const handleTravelersChange = (selectedOption) => {
-    setTravelers(selectedOption.value);
-  };
+  // const handleTravelersChange = (selectedOption) => {
+  //   setTravelers(selectedOption.value);
+  // };
 
   return (
     <div className="home-container">
+            <p className="hometitle">Une expérience inoubliable</p>
+
       <img src={img1} alt="Home Image" className="home-image" />
-      <div className="search-for-container">
+      {/* <div className="search-for-container">
         <form className="search-form">
           <div className="form-group">
             <label htmlFor="location">
@@ -92,8 +95,13 @@ const Home = () => {
             <i className="fas fa-search"></i> Search
           </button>
         </form>
+      </div> */}
+      <div className="supportetoile">
+        <img src={img7} alt="Home Image" className="leh" />
       </div>
-      <p className="hometitle">Une expérience inoubliable</p>
+      <div>
+        <img src={img6} alt="" className="nnn" />
+      </div>
     </div>
   );
 };

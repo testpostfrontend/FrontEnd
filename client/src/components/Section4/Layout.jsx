@@ -9,17 +9,12 @@ import img7 from '../../assets/likes.png';
 import img8 from '../../assets/allsos.png';
 import img9 from '../../assets/hs.png';
 import img10 from '../../assets/dr.png';
-import img11 from '../../assets/t1.png'
-import img12 from '../../assets/t2.png'
-import img13 from '../../assets/t3.png'
-import img14 from '../../assets/t4.png'
-import img15 from '../../assets/t5.png'
-import img16 from '../../assets/t6.png'
-
-
-
-
-
+import img11 from '../../assets/t1.png';
+import img12 from '../../assets/t2.png';
+import img13 from '../../assets/t3.png';
+import img14 from '../../assets/t4.png';
+import img15 from '../../assets/t5.png';
+import img16 from '../../assets/t6.png';
 
 const Layout = () => {
   const dummyData = [
@@ -48,6 +43,13 @@ const Layout = () => {
   return (
     <div className="section-3-1">
       <div className="hard">
+
+        <div className="soc-heading">
+          <p className="soc-title">Ténoignages</p>
+          <p className="soc-subtitle">
+           Ce que disent nos client...
+          </p>
+        </div>
         <img className="imgallsos " src={img8} alt="" />
         <img className="hs " src={img9} alt="" />
         <img className=" ds" src={img10} alt="" />
@@ -57,11 +59,6 @@ const Layout = () => {
         <img className=" t4" src={img14} />
         <img className=" t5" src={img15} />
         <img className=" t6" src={img16} />
-
-
-
-
-
       </div>
       <div className="howmany">
         <div className="ggg-container ">

@@ -108,6 +108,11 @@
     position: absolute;
     top: 218px;
     left: 139px;
+    @media (max-width: 480px){
+        width: 30px;
+        top: 7px;
+           left: 90px;
+           }
 
 }
 .t2{
@@ -116,6 +121,11 @@
     position: absolute;
     top: 81px;
     left: 185px;
+    @media (max-width: 480px){
+        width: 30px;
+        top: 50px;
+           left: 40px;
+           }
 
 }
 .t3{
@@ -124,6 +134,11 @@
     position: absolute;
     top: 300px;
     left: 220px;
+    @media (max-width: 480px){
+        width: 30px;
+        top: 80px;
+           left: 80px;
+           }
 
 }
 .t4{
@@ -132,6 +147,11 @@
     position: absolute;
     top: 221px;
     left: 942px;
+    @media (max-width: 480px){
+        width: 25px;
+        top: 80px;
+           left: 250px;
+           }
 
 }
 .t5{
@@ -140,6 +160,11 @@
     position: absolute;
     top: 300px;
     left: 800px;
+    @media (max-width: 480px){
+        width: 22px;
+        top: 20px;
+           left: 280px;
+           }
 
 }
 .t6{
@@ -148,6 +173,11 @@
     position: absolute;
     top: 132px;
     left: 800px;
+    @media (max-width: 480px){
+        width: 20px;
+        top: 60px;
+           left: 280px;
+           }
 
 }
 /* Responsive Styles */
@@ -222,6 +252,37 @@
         width: 66%;
         height: auto;
     }
-    
+   
 
 }
+
+.soc-heading{
+    position: absolute;
+    top: 47px;
+    left: 407px;
+    @media (max-width: 480px){
+ top: 7px;
+    left: 130px;
+    }
+}
+.soc-subtitle {
+    /* text-align: center; */
+    font-size: 30px;
+    font-family: "HK Grotesk";
+    font-weight: 700;
+    color: #172A4C;
+    @media (max-width: 480px){
+        font-size: 10px;
+           }
+  }
+  
+  .soc-title {
+    font-size: 15px;
+    font-family: "La Belle Aurore";
+    color: rgba(255, 94, 85, 1);
+    @media (max-width: 480px){
+        font-size: 10px;
+        margin-bottom: 0;
+           }
+
+  }

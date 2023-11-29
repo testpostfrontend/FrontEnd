@@ -12,11 +12,11 @@ const Subscribe = () => {
           nos bons plans et astuces
         </p>
         <div className="subscribe-form">
-          <div className="input-wrapper">
-            <input className='inpt' type="email" placeholder="Enter your email" />
-            <button className='subbtn'>Subscribe</button>
-          </div>
+          
+            <input className='inptt' type="email" placeholder="Enter your email" />
+          
         </div>
+            <button className='subtn'>Subscribe</button>
       </div>
     </div>
   );
