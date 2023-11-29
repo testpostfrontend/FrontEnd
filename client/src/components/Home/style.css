@@ -134,6 +134,7 @@
     font-size: 13px;
     width: 95%;
   }
+  
 }
 
 /* Example cities for the location input */
@@ -144,4 +145,28 @@
 
 .city-suggestion:hover {
   background-color: #eee;
+}
+
+@media (max-width: 428px) {
+  /* .search-for-container {
+    height: 17%;
+    width: 86%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    border-radius: 17px;
+    padding: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  } */
+  .search-form {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 }
