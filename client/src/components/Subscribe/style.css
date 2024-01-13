@@ -25,6 +25,15 @@
   @media (max-width: 480px) {
     font-size: 10px;
     width: 95%;
+    .inptt {
+      /* left: 22px; */
+      padding: 10px;
+      text-align: left;
+      width: 180px;
+      /* width: 344px; */
+      border-radius: 15px;
+      height: 32px;
+  }
   }
 
   @media (max-width: 834px) {
@@ -76,6 +85,10 @@
   position: absolute;
   left: 582px;
   top: 335px;
+  @media (max-width: 480px) {
+  left: 167px;
+  top: 113px;
+  }
 }
 
 .subtn {
@@ -95,6 +108,16 @@
     width: 383px;
     border-radius: 15px;
     height: 66px;
+    @media (max-width: 480px) {
+      
+     
+        padding: 10px;
+        text-align: left;
+        width: 180px;
+        border-radius: 15px;
+        height: 32px;
+    
+    }
 }
 
 /* Add any additional styling as needed */

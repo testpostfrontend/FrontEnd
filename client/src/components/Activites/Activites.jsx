@@ -94,7 +94,7 @@ const Activites = () => {
       </div>
 
       {/* Button outside the card */}
-      <div className="centered-button-container">
+      <div className="centered-button-container cvb">
         <button className="button-decouvrir">Je veux découvrir plus</button>
       </div>
     </>

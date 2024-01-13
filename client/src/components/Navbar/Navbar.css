@@ -78,7 +78,8 @@ li {
   }
 
   .navbar.menu-open .navbar-middle {
-    display: block;
+    display: block;flex-direction: row;
+    text-align: center;
   }
 
   .navbar-right {
@@ -117,14 +118,14 @@ li {
 
 @media (max-width: 428px) {
   .navbar {
-    flex-direction: column;
+    flex-direction: row;
 
     text-align: center;
   }
 .logoc{
   top: 14px;
     left: 16px;
-    position: absolute;
+    /* position: absolute; */
     
     height: 20px;
     width: auto;

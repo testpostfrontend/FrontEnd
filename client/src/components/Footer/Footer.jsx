@@ -97,7 +97,7 @@ const Footer = () => {
       <div className="container">
         {/* <!--foote_bottom_ul_amrc ends here--> */}
         <p className="text-center">
-          © 2022 Tripgo All Rights Reserved .{/* <a href="#">SuperHost</a> */}
+          © 2024 AymenSaidani All Rights Reserved .{/* <a href="#">SuperHost</a> */}
         </p>
 
         <ul className="credit_footer_ul">
